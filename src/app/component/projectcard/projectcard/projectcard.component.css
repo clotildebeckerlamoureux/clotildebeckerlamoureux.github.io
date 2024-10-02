@@ -1,0 +1,14 @@
+article {
+    padding: 1em;
+    border: 1px solid black;
+    max-width: 25rem;
+    text-align: center;
+}
+
+h3 {
+    padding-bottom: 1em;
+}
+
+img {
+    max-width: 20em;
+}

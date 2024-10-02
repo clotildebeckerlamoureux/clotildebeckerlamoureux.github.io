@@ -1,3 +1,10 @@
-p {
-    height: 100vh;
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+li {
+    list-style: none;
 }

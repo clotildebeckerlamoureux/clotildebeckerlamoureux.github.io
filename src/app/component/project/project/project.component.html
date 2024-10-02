@@ -1,1 +1,13 @@
-<p id="project">project works!</p>
+<section id="project">project works!
+
+    <ul>
+    @for(project of projects; track project.name) {
+        <li>
+            <app-projectcard [projectName]="project.name" [projectDescription]="project.description" [projectImage]="project.image" [projectLink]="project.githubLink"></app-projectcard>
+        </li>
+    }
+    </ul>
+
+</section>
+
+
